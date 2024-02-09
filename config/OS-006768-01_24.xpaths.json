@@ -1,0 +1,2174 @@
+[
+    {
+        "AttributeNameinXML": ".//WaferFab",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "E.g. fab8 please input \"FAB8\"; fab7 please input \"FAB7\""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorPhone",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorOrderId",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorFax",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorAddress",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorAddress",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorAddress",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorAddress",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "If address is short, do not have to fill up all 5lines. Input \"NA\" if unavailable."
+    },
+    {
+        "AttributeNameinXML": ".//VendorInfo/VendorAddress",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "If address is short, do not have to fill up all 5lines. Input \"NA\" if unavailable."
+    },
+    {
+        "AttributeNameinXML": ".//Vendor",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To input common name for all manufacturing sites of each maskshop in UPPERCASE. "
+    },
+    {
+        "AttributeNameinXML": ".//TitleType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//TitleType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//TitleType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//TitleText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "For ASML-related barcode info only."
+    },
+    {
+        "AttributeNameinXML": ".//TitleText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Printed on mask (fiducial)"
+    },
+    {
+        "AttributeNameinXML": ".//TitleText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/SurfaceQualityId",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Input information under \"Inspection\" in the inspection report. "
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/SurfaceInspPixelSizeUsed",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Define in micron (um) E.g. 0.13, 0.04"
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/SurfaceInspModeUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/SurfaceInspEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/SurfaceInspEquipReqd",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/MeasuredDefectCountWithinSpec",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//SurfaceInspMeasurements/MeasuredDefectCount",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//Status",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To put common name for reticle in UPPERCASE: NEW, RETROFIT, REMAKE, REPELL, REWORK, REPAIR etc.  \nFor Fab 1 DOMA COfC (only applicable to Toppan Dresden & AMTC), input \"INTERMEDIATE\" for <status>."
+    },
+    {
+        "AttributeNameinXML": ".//ShipToSite",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the actual ship to location as indicated in PO. Eg: FAB7, FAB7H, FAB8, etc"
+    },
+    {
+        "AttributeNameinXML": ".//SemiRevision",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//ReticleMeasSpecRevision",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the reticle measurement spec version using the following format: 1, 2, 12, etc"
+    },
+    {
+        "AttributeNameinXML": ".//ReticleMeasSpec",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the reticle measurement spec used, MR-008-XXxxx or RET-xxxxxx. For mature tech where reticle measurement spec is not available, please report the reticle grade spec instead."
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/RegistrQualityId",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default = 1"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/RegistrOrtho",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/RegistrError",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/RegistrEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MxMy",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Spec value of |Mx-My| (can be found in Reticle Grade Table). \nMaskshops to input NA if non-applicable."
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrThreeSigma/Y",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "To input measured registration three sigma Y after alignment before systematics removed (Scale/Ortho)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrThreeSigma/X",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "To input measured registration three sigma X after alignment before systematics removed (Scale/Ortho)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrScale/Y",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrScale/X",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrResidualThreeSigma/Y",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "To input measured registration residual three sigma Y after alignment and systematics removed (Scale/Ortho)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrResidualThreeSigma/X",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "To input measured registration residual three sigma X after alignment and systematics removed (Scale/Ortho)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrResidual/Y",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrResidual/X",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrOrtho",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/RegistrFeature",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "Applicable to all tech nodes. Namng conventions to follow respective Meaurement spec for different tech nodes (e.g xx_PCI_REG, xx_uBLOSSOM_REG_1R where xx = mask layers) "
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkResidual/Y",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "To input 5 decimal point, eg: 0.00332"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkResidual/X",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "To input 5 decimal point, eg: 0.00332"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkLocation/Y",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "Format in 4X, chrome-side up: Y-coordinate (Example:  -60310.00)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkLocation/X",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "Format in 4X, chrome-side up: X-coordinate (Example: 10547.00)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkId",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "Number of MeasuredRegistrMark inputs depend on the number of measurements made."
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkError/Y/TMCreportedhere",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To input 5 decimal point, eg: 0.00332"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MeasuredRegistrMarkError/X/TMCreportedhere",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To input 5 decimal point, eg: 0.00332"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MaskRegistrMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default: 0 (Maskshops to input actual coordinates in <MeasuredRegistrMarkLocation>)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrMark/MaskRegistrMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default: 0 (Maskshops to input actual coordinates in <MeasuredRegistrMarkLocation>)"
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrError/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredRegistrError/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//RegistrMeasurements/MeasuredMxMy",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Measured value of |Mx-My|.\nMaskshops to input NA if non-applicable."
+    },
+    {
+        "AttributeNameinXML": ".//ProductType",
+        "Selected": 0,
+        "Description": "Default: Reticle",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//ProductMagnification",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/TransmissionTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/TransmissionTarget",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/TransmissionRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/TransmissionEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number. Please input <NA> if inapplicable."
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default: Max 5 MeasuredTransmissionMarkSiteId inputs. Because transmission always measure 5 points."
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/TransmissionMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/MeasuredTransmission",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/MeasuredTransmission",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/MeasuredTransmission",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/MeasuredTransmission",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionMarkSiteId/MeasuredTransmission",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/TransmissionMeasurements/MeasuredTransmissionAverage",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseShiftQualityId",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Applicable to PSM layers only. Default: 1  (PSM mask layers), 0 (non-PSM mask layers)"
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/PhaseAngleTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/PhaseAngleTarget",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/PhaseAngleRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/PhaseAngleEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number. Please input <NA> if inapplicable."
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default: Max 5 MeasuredPhaseAngleMarkSiteId inputs. Because phase always measure 5 points."
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/PhaseAngleMarkLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/MeasuredPhaseAngle",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/MeasuredPhaseAngle",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/MeasuredPhaseAngle",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/MeasuredPhaseAngle",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleMarkSiteId/MeasuredPhaseAngle",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//PhaseShiftMeasurements/PhaseAngleMeasurements/MeasuredPhaseAngleAverage",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MfgSiteUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MeasuredPercentClear",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/TopPellicleUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To input 'Full Pellicle Part Number' referring to MZ-001-XX005"
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/Coating/InternalCoat",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "YES or NO (in Uppercase)"
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/Coating/CoatingWavelength",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/Coating/CoatingType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/Coating/CoatingComposition",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To be reported as listed: W0G, W0H, W4F, MBE, MBX, K63A-NTAR5,K63A-NTAR7, K63A-AR8, MA6Z-C5F, EBT, A61A*-EBT7, A61A-TF11, A61A*-TF11, A61A-NTAR5, A61A*-NTAR5, A61A-TFC, AR8, AR3, NTAR7, SBNB, SBTA, AR6, Z3, LQ, SHBM, MA6Y-C5F. \nPlease report the exact same coating composition as Mask Process POR spec."
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/BlankVendor",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/BlankType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/BlankThickness",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Define in inch  E.g. 0.25 "
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/BlankLength",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/Substrate/BlankFlatness",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaterialsUsed/PackageUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MasterGradeSpecRevision",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the master reticle grade spec version using the following format: 1, 2, 12, etc"
+    },
+    {
+        "AttributeNameinXML": ".//MasterGradeSpec",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the master reticle grade spec, default RET-000123"
+    },
+    {
+        "AttributeNameinXML": ".//MaskSetId",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaskResults/MaskSetId/MaskGroupId/MaskId/MaskResultsOptions",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaskResults/MaskSetId/MaskGroupId",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//MaskResults",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Top level tag "
+    },
+    {
+        "AttributeNameinXML": ".//MaskPORSpecRevision",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the mask process POR spec version using the following format: 1, 2, 12, etc"
+    },
+    {
+        "AttributeNameinXML": ".//MaskPORSpec",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the mask process POR spec used, PQ-xxxxxx. This spec will be released by GF."
+    },
+    {
+        "AttributeNameinXML": ".//MaskName",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "Mask title, same as barcode input. Eg. OPTIMUS-M1AZLAX1"
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/WriteDateTime",
+        "Selected": 0,
+        "Description": "Date, Time (24Hrs format)",
+        "Remarks": "eg. 2010-12-18T11:52:56"
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/Write2ndLevelTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number. Please input <NA> if inapplicable."
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/Process",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/MaskSerialNumber",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/MachineSerialNumber",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/LithoModelUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/EquipSiteUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//LithoInformation/ElapsedWriteTime",
+        "Selected": 0,
+        "Description": "Time (minutes format)",
+        "Remarks": "eg. 1236\nApplicable for all tech node and mask type"
+    },
+    {
+        "AttributeNameinXML": ".//FinalQcAuditor",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//FileDateTime",
+        "Selected": 0,
+        "Description": "Date, Time (24Hrs format)",
+        "Remarks": "eg. 2010-12-18T11:52:56"
+    },
+    {
+        "AttributeNameinXML": ".//FabTechnology",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "To be reported as listed: 0.007, 0.010, 0.014, 0.020, 0.022, 0.028, 0.032, 0.040, 0.045, 0.055, 0.060, 0.065, 0.086, 0.08, 0.09, 0.11, 0.13, 0.14, 0.152, 0.153, 0.15, 0.16, 0.18, 0.20, 0.22, 0.25, 0.30, 0.32, 0.35, 0.40, 0.45, 0.50, 0.60, 0.65, 0.70, 0.80, 0.90, 1.20, 1.50, 2.00, 3.00, 4.00, 5.00. (Example: for 28nm, pls input 0.028; for 0.18um, pls input 0.18)"
+    },
+    {
+        "AttributeNameinXML": ".//DesignRule",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "smallest allowed feature in um. Eg. 0.028, 0.011 (main feature as per tech file)"
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/MeasuredDefectDensity",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/MeasuredDefectCountWithinSpec",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/MeasuredDefectCount",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DieToDieMeasurements",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: TRUE or FALSE "
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DieToDieInspection",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: TRUE or FALSE "
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DefectQualityId",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Input information under \"Inspection\" in the inspection report."
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DefectInspPixelSizeUsed",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Define in micron (um) E.g. 0.13, 0.04"
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DefectInspModeUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DefectInspDate",
+        "Selected": 0,
+        "Description": "Date, Time (24Hrs format)",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DefectEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//DefectMeasurements/DefectEquipReqd",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CustomerSpecRevision",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the reticle grade spec version using the following format: 1, 2, 12, etc"
+    },
+    {
+        "AttributeNameinXML": ".//CustomerSpec",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the reticle grade spec used, DX-RGxxxxx"
+    },
+    {
+        "AttributeNameinXML": ".//Customer",
+        "Selected": 0,
+        "Description": "Default: GLOBALFOUNDRIES",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//checkSum",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Maskshop to input checksum of mask layer."
+    },
+    {
+        "AttributeNameinXML": ".//CduResult/Pooled3Sigma",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Spec value for Pooled 3Sigma CDU. (Applicable to Fab 1 only)"
+    },
+    {
+        "AttributeNameinXML": ".//CduResult/MeasuredPooled3Sigma",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Measured Pooled 3Sigma CDU. (Applicable to Fab 1 only)"
+    },
+    {
+        "AttributeNameinXML": ".//CduResult/MeasuredDOMA",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Measured DOMA. (Applicable to Fab 1 only) "
+    },
+    {
+        "AttributeNameinXML": ".//CduResult/Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report the layer, e.g M1AZ. This is to identify the layer for MLR case"
+    },
+    {
+        "AttributeNameinXML": ".//CduResult/DOMA",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "DOMA Spec Values. (Applicable to Fab 1 only)"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultMMC/MMCTarget",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MMC measurement for Fab9, 10 devices\nThis is referring to MTT (off) target"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultMMC/MMCSpec",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MMC measurement for Fab9, 10 devices"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultMMC/MMCMinSpec",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MMC measurement for Fab9, 10 devices"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultMMC/MMCMaxSpec",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MMC measurement for Fab9, 10 devices"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultMMC/MMCFeature",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for MMC measurement for Fab9, 10 devices"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultMMC/MeasuredMTT",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MMC measurement for Fab9, 10 devices"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/XYDelta",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Spec Value of Delta X/Y (Found in Reticle Grade Table)"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/MeasuredXYDelta",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Measured Value of Delta X/Y."
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/MeasuredIDBias/Y",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Measured Value of Iso/Dense Bias-Y (um). Input NA if it is not applicable."
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/MeasuredIDBias/X",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Measured Value of Iso/Dense Bias-X (um). Input NA if it is not applicable."
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/MeasuredDensoDenseBias",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for fab1 22nm MG01\nMeasured Value of Denso/Dense Bias"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report the layer, e.g M1AZ. This is to identify the layer for MLR case"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/IDBias",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Spec Value of Iso/Dense Bias (um) (Found in Reticle Grade Table)"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/Feature",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report the feature, e.g XX-CD_CELL, XX-PCI (XX=layer)"
+    },
+    {
+        "AttributeNameinXML": ".//CdResultA/DensoDenseBias",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for fab1 22nm MG01\nSpec Value of Denso/Dense Bias (Found in Reticle Grade Table)"
+    },
+    {
+        "AttributeNameinXML": ".//CdResult40/MTTDifference",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "This is to report Mainchip MTT \u2013 Centre-CDCELL_DVS_MTT. Applicable for 40nm  M1 only. Please refer to DX-RG00104 "
+    },
+    {
+        "AttributeNameinXML": ".//CdResult40/MDFMRatio",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Applicable for 40nm  M1 only. Please refer to DX-RG00104"
+    },
+    {
+        "AttributeNameinXML": ".//CdResult40/Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report the layer, e.g M1AZ. This is to identify the layer for MLR case"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/MeasuredCdTolerance",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/MeasuredCdRange",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/MeasuredCdMean",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "Measured CD mean value must be reported even there's only one meausrmenet point"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CustomerCDOffset",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "This is to input the CD offset applied. To be input the value in micrometer(um)\nEg: 0.3, -0.6 etc"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdToneClear",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "Default: TRUE/FALSE. True (tone is Clear) or False (tone is dark) "
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To in put spec value"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdTarget",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdSetResults/MeasuredCdThreeSigma",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdSetResults/MeasuredCdMTT",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdSetResults/CdThreeSigma",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdSetResults/CdMTT",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdSetResults/CdGroupName",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "Applicable for SGP Fab devices and Fab 1, 8 (where applicable).  \nFor a given group of CDGroupMeasurements, there is a CDSetResults. Eg, 1A-PCI-IHS. \nInput <NA> if non-applicable for Fab 1, 8 device. (Add CD_ET measurement here-only applicable for Mx and PC for non-matured tech node) Please follow naming convention from the respective measurement spec for each tech node. For ET naming convention, it will be updated by Lee Kian in near future."
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdReferenceOnly",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: TRUE/FALSE. True (CD is for reference only, do not need to meet spec) or False (CD is not for reference, must meet spec)"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To in put spec value"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdOrientation",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "Default: HORIZONTAL or VERTICAL"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdMeasurement/MeasuredCdSiteId",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "Running number (1,2,3,\u2026.) (IMPORTANT: maskshops to ensure center CD cell measurement site as site 5)"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdMeasurement/MeasuredCdLocation",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": "Format in 4X, chrome-side up: X-coordinate, Y-coordinate (Example: 10547.00, -60310.00)"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdMeasurement/MeasuredCd",
+        "Selected": 1,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdMeasurement/CdLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default: 0 (Maskshops to input actual coordinates in <MeasuredCdLocation>)"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdMeasurement/CdLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Default: 0 (Maskshops to input actual coordinates in <MeasuredCdLocation>)"
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdFeature",
+        "Selected": 1,
+        "Description": "Text",
+        "Remarks": "Naming conventions to follow respective Meaurement spec for different tech nodes (e.g xx_PCD_DSE_V, xx_1A_PCI_DVS where xx = mask layers) "
+    },
+    {
+        "AttributeNameinXML": ".//CdGroupMeasurements/CdEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//BillingInformation/SoNumber",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": " Input \"NA\" if unavailable."
+    },
+    {
+        "AttributeNameinXML": ".//BillingInformation/PoNumber",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//BarcodeType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "For ASML-related barcode info only."
+    },
+    {
+        "AttributeNameinXML": ".//BarcodeText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//BarcodeRotation",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalSubstrateInformation/ResistType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the actual resist name, tally with what indicated in POR spec"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalSubstrateInformation/ResistPolarity",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report resist tone. Default: Positive or Negative"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalSubstrateInformation/Pellicle/PellicleType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Input Standardization to include dash \"-\" in the <PellicleType>:  A-193, K-248, I-365"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalSubstrateInformation/Pellicle/PellicleLotNo",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalSubstrateInformation/Pellicle/PellicleFrameID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To input 'Engraving on Pellicle Frame' referring to MZ-001-XX005"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/ResistStripInformation/ResistStripTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/ResistStripInformation/ResistStrip2ndLevelTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/ResistCoatInformation/ResistCoatTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/ResistCoatInformation/ResistCoat2ndLevelTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/PhaseLockInformation/PhaseLockTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for OMOG/PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/PellicleMountInformation/PellMountTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/PEBInformation/PEBTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/PEBInformation/PEB2ndLevelTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/FinalCleanInformation/FinalCleanTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/EtchInformation/Process",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default:WET or DRY"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/EtchInformation/MoSiEtchTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the etch tool used for MoSi etch.\nOnly applicable for OMOG/PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/EtchInformation/EtchModelUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the etch tool used for Chrome etch\nPlease report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/EtchInformation/EtchInformation",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Process name. (unique for each maskshop)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/EtchInformation/EquipSiteUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/EtchInformation/CrEtch2ndLevelTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/DevelopInformation/DevelopTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalProcessInformation/DevelopInformation/Develop2ndLevelTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for PSM masks. Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/MeasuredCdRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CustomerCDOffset",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "This is to input the CD offset applied. To be input the value in micrometer(um)\nEg: 0.3, -0.6 etc"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdToneClear",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: True/False. True (tone is Clear) or False (tone is dark)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdTarget",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdReferenceOnly",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: TRUE / FALSE True (CD is for reference only, do not need to meet spec) or False (CD is not for reference, must meet spec)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdOrientation",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default:HORIZONTAL or VERTICAL"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdMeasurement/MeasuredCdLocation",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdFeature",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/MeasuredCdTolerance",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/MeasuredCdMean",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdRange",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdMeasurement/MeasuredCdSiteId",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Running number (1,2,3,\u2026.)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdMeasurement/MeasuredCd",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdMeasurement/CdLocation/X",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdMeasurement/CdLocation/Y",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMeasurementInformation/MeasurementResults/CdEquipUsed",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskProcessInformation/MaskProcessName",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "This is to input the mask process used for the reticle\nMaskshop should input the own defined mask process name Please report the exact same mask process name as Mask Process POR spec (MaskProcessName)."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskProcessInformation/CustomerREGGrid",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "This is to input the REG grid applied.\nIt shall be input as the grid name/code defined by maskshop"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/ServicedCountHistory/ServiceType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "a. <NA>: Strictly meant for good masks\nb. <SAMPLE>: Strictly meant for sample masks\nc. <REPELL>: Strictly meant for masks returned to maskshop for repell service only (i.e. demount existing pellicle from mask and remount a new pellicle onto mask).\nd. <RECERT> Strictly meant for masks returned to maskshop for inspection only. No repell, no additional non-standard operations (e.g. special CD measurements, special aims check).\ne. <REWORK>: Strictly meant for masks returned to maskshop for repell and also require additional non-standard operations (e.g. special CD measurements, special aims check).\nf.  <CLEAN>: Strictly meant for masks returned to maskshop for  a pure clean service. (This can happen for masks w/o pellicle, or as a back side clean service of mask with pellicle) \ng. <AIMS>: Strictly meant for masks returned to maskshop for through-pell AIMS measurement only. No repell, no additional non-standard operations (e.g. special CD measurements, special repair).\nh. <REPAIR>: Strictly meant for masks returned to maskshop for repell and repair only. No additional non-standard operations (e.g. special CD measurements, special inspection).\ni.  <METROLOGY>: Strictly meant for DOMA CofC for Fab 1 (only aplicable to Toppan Dresden & AMTC)."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/ServicedCountHistory/RepellType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To input the repell type provided in Repell Service Request Form\na. <NA>: production masks or repell type is not provided in Repell Service Request Form\nb. <Preventative>\nc. <Degradation>\nd. <Damage>\ne. <Contamination>\nf. <SpecialService>"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/ServicedCountHistory/Pellicle",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for <REPELL>, <REPAIR> and <REWORK> masks. Input pellicle part number used."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/ReticleIDNumber",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable to Fab3E reticles "
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/ReticleGrade",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/OPC",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only YES or NO"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/NumberOfMaskImage",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "-SLR = 1\n-SFR = 1\n-MLR = 1x2, 1x3, 1x4\n-MNR = 1x2, 1x4\n-MFR = 1x2"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To be input as COG or KrF PSM or ArF PSM or Adv BIN"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskSetTitle",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image4_TechNode",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To be reported as listed: 0.007, 0.010, 0.014, 0.020, 0.022, 0.028, 0.032, 0.040, 0.045, 0.055, 0.060, 0.065, 0.086, 0.08, 0.09, 0.11, 0.13, 0.14, 0.152, 0.153, 0.15, 0.16, 0.18, 0.20, 0.22, 0.25, 0.30, 0.32, 0.35, 0.40, 0.45, 0.50, 0.60, 0.65, 0.70, 0.80, 0.90, 1.20, 1.50, 2.00, 3.00, 4.00, 5.00. (Example: for 28nm, pls input 0.028; for 0.18um, pls input 0.18)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image4_PercentPerimeter",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nOnly applicable for tech node and layers idenitified in MR-008-XX012\nTo input 4 decimal point, eg: 0.0003"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image4_PercentClear",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nTo input 3 decimal point, eg: 0.015"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image4_Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nFirst 2 or 3 characters to be layer name, e.g. M1, 75, PC, 3DD.\nLast 2 characters to be layer revision, e.g. AZ, BY, CX.\nExample: M1AZ, CA1BZ, 75AZ\nFor MLR with image 1/image 2/image 3/image 4 with Dummy Fill only, Maskshops to input \"FILL\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively.\nFor MLR with image 1/image 2/image 3/image 4 with empty fill, Maskshops to input \"NA\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image3_TechNode",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To be reported as listed: 0.007, 0.010, 0.014, 0.020, 0.022, 0.028, 0.032, 0.040, 0.045, 0.055, 0.060, 0.065, 0.086, 0.08, 0.09, 0.11, 0.13, 0.14, 0.152, 0.153, 0.15, 0.16, 0.18, 0.20, 0.22, 0.25, 0.30, 0.32, 0.35, 0.40, 0.45, 0.50, 0.60, 0.65, 0.70, 0.80, 0.90, 1.20, 1.50, 2.00, 3.00, 4.00, 5.00. (Example: for 28nm, pls input 0.028; for 0.18um, pls input 0.18)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image3_PercentPerimeter",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nOnly applicable for tech node and layers idenitified in MR-008-XX012\nTo input 4 decimal point, eg: 0.0003"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image3_PercentClear",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nTo input 3 decimal point, eg: 0.015"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image3_Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nFirst 2 or 3 characters to be layer name, e.g. M1, 75, PC, 3DD.\nLast 2 characters to be layer revision, e.g. AZ, BY, CX.\nExample: M1AZ, CA1BZ, 75AZ\nFor MLR with image 1/image 2/image 3/image 4 with Dummy Fill only, Maskshops to input \"FILL\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively.\nFor MLR with image 1/image 2/image 3/image 4 with empty fill, Maskshops to input \"NA\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image2_TechNode",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To be reported as listed: 0.007, 0.010, 0.014, 0.020, 0.022, 0.028, 0.032, 0.040, 0.045, 0.055, 0.060, 0.065, 0.086, 0.08, 0.09, 0.11, 0.13, 0.14, 0.152, 0.153, 0.15, 0.16, 0.18, 0.20, 0.22, 0.25, 0.30, 0.32, 0.35, 0.40, 0.45, 0.50, 0.60, 0.65, 0.70, 0.80, 0.90, 1.20, 1.50, 2.00, 3.00, 4.00, 5.00. (Example: for 28nm, pls input 0.028; for 0.18um, pls input 0.18)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image2_PercentPerimeter",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nOnly applicable for tech node and layers idenitified in MR-008-XX012\nTo input 4 decimal point, eg: 0.0003"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image2_PercentClear",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for MLR, MNR, MFR\nTo input 3 decimal point, eg: 0.015"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image2_Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "First 2 or 3 characters to be layer name, e.g. M1, 75, PC, 3DD.\nLast 2 characters to be layer revision, e.g. AZ, BY, CX.\nExample: M1AZ, CA1BZ, 75AZ\nFor MLR with image 1/image 2/image 3/image 4 with Dummy Fill only, Maskshops to input \"FILL\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively.\nFor MLR with image 1/image 2/image 3/image 4 with empty fill, Maskshops to input \"NA\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image1_TechNode",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To be reported as listed: 0.007, 0.010, 0.014, 0.020, 0.022, 0.028, 0.032, 0.040, 0.045, 0.055, 0.060, 0.065, 0.086, 0.08, 0.09, 0.11, 0.13, 0.14, 0.152, 0.153, 0.15, 0.16, 0.18, 0.20, 0.22, 0.25, 0.30, 0.32, 0.35, 0.40, 0.45, 0.50, 0.60, 0.65, 0.70, 0.80, 0.90, 1.20, 1.50, 2.00, 3.00, 4.00, 5.00. (Example: for 28nm, pls input 0.028; for 0.18um, pls input 0.18)\nFor Fab9 & Fab10, please input the actual technolgy, e.g. CSOI7RF, 45RFSOI, SIGE8WL\nFor 7SW(Fab2), 8SW(Fab7), please input as CSOI7SW, CSOI8SW"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image1_PercentPerimeter",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable for tech node and layers idenitified in MR-008-XX012\nTo input 4 decimal point, eg: 0.0003"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image1_PercentClear",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "To input 3 decimal point, eg: 0.015"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayerInformation/Image1_Layer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "First 2 or 3 characters to be layer name, e.g. M1, 75, PC, 3DD.\nLast 2 characters to be layer revision, e.g. AZ, BY, CX.\nExample: M1AZ, CA1BZ, 75AZ (Example: MPW14010RXAZLAX1 --> RXAZ)\nFor MLR with image 1/image 2/image 3/image 4 with Dummy Fill only, Maskshops to input \"FILL\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively.\nFor MLR with image 1/image 2/image 3/image 4 with empty fill, Maskshops to input \"NA\" for <Image1_Layer> / <Image2_Layer> / <Image3_Layer> / <Image4_Layer> respectively."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskLayer",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "First 2 or 3 characters to be layer name, e.g. M1, 75, PC, 3DD.\nLast 2 characters to be layer revision, e.g. AZ, BY, CX.\nExample: M1AZ, CA1BZ, 75AZ"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/MaskCDStd",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To input the Mask CD Std applied for the reticle. Please refer to DX-RG spec MaskCDSTd column for the required input value.\nEg: 0.13um, 0.065um, 0.055um, 0.040um, 0.028um etc"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/LotNo",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/InternalRemountCountHistory/Status",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable when there is internal remount. Default = SHIP"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/InternalRemountCountHistory/RemountCount",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable when there is internal remount. Input number of remounts performed."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/InternalRemountCountHistory/Pellicle",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "If remount count = 0, input NA. If remount count \u2260 0, input pellicle part number of pellicle used."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/InternalRemountCountHistory/Date",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only applicable when there is internal remount. Date of remount. Input <NA> if remount count = 0"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/InternalRemountCountHistory/Cleaning",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "If remount count = 0, input final clean process (ie. SO4/SO4 Free). If remount count \u22651, input cleaning process used"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/InternalRemountCountHistory/CleanCount",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Only applicable when there is cleaning. Input number of cleaning performed in the latest service only. (value should be at least 1 because for every service, even new masks will undergo cleaning) For example: For normal case, if process clean count = 1 and If remount 1 time, clean count = 2."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/DeviceType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Only 5 types allowed:\n-SLR\n-SFR\n-MLR\n-MNR\n-MFR"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/DataCentrality/LayoutRotation",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report layout rotation (mrad) referring to MZ-002 8.1"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/DataCentrality/CentralityTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalMaskInformation/DataCentrality/Centrality",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "To report data centrality (mm) referring to MZ-002 8.1"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/ThroughPellicleDefects",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: TRUE or FALSE "
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/PellicleOnGlassSide/SpecSize",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "GLOBALFOUNDRIES does not have pellicle mounted on glass side currently."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/PellicleOnGlassSide/SpecCount",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/PellicleOnGlassSide/Result",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/PellicleOnChromeSide/SpecSize",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Define in micron (um) E.g. 0.13, 0.04"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/PellicleOnChromeSide/SpecCount",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/PellicleOnChromeSide/Result",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/InsidePellicleInformation/GlassSideOnGlass",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/InsidePellicleInformation/ChromeSideOnGlass",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/PellicleInspectionMeasurements/InsidePellicleInformation/ChromeSideOnChrome",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DNIRInformation/DNIRLocation",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Coordinates of DNIR in x1,y1;x2,y2 format. (Number of DNIR coordinates must be equal to the number of DNIR_ID.)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DNIRInformation/DNIR_ID",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": "Number of DNIR_ID inputs depend on the number of DNIR required. Should be in running numbers (1, 2, 3, \u2026) (to know the DNIR ID to accomodate for multiple DNIR regions)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DNIRInformation/DNIR",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Default: YES or NO (uppercase)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/RepairType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report 0 or 1. 0=etch; 1=depo"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/RepairTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/MeasuredLocation",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/MeasuredDefectCd",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/DefectTypeTotal",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/DefectID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "unique ID for each individual defect (during inspection)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/DefectClass",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "defect classification. Eg. 4A_Contam on Cr. "
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspMeasurement/AIMSAfterRepair",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspInformation/InspectionName",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Input information under \"Plate\" in inspection report"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/DefectInspInformation/InspectionID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Input information under eg. \"KT9X FMID\" in inspection report"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/MinDelta",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/MeasuredDefectCd",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/MaxDelta",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/Location",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/InspectionID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/DefectNo",
+        "Selected": 0,
+        "Description": "Number",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/DefectClass",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/DefectInformation/AIMSResults/AIMSTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/BlankInspectionInformation/ResistCoatedBlankInspectionTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalInspectionInformation/BlankInspectionInformation/BlankInspectionTool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Please report the exact same tool name as Mask Process POR spec. The tool name must include both tool model and tool serial number."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalDataCheckSumResult/CheckSumData/PatternFileName",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Maskshop's mebes file name"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalDataCheckSumResult/CheckSumData/Pattern",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalDataCheckSumResult/CheckSumData/CheckSumResult",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "CheckSum value is generated by maskshop after fractured pattern data."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalCorrectionInformation/CorrectionType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "This is applicable for post mask write CDU or REG correction using Zeiss tool.\nInput 'CDC' for CDU correction; input 'REGC' for REG correction; input 'NONE' if no CDU or REG correction was done (default)"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBillingInformation/ShipDate",
+        "Selected": 0,
+        "Description": "Date",
+        "Remarks": "eg. 2010-12-18T11:52:57"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBillingInformation/OrderNumber",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBillingInformation/OrderDate",
+        "Selected": 0,
+        "Description": "Date",
+        "Remarks": "eg. 2010-12-18T11:52:56"
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/OtherBarcodeInformation/OtherBarcodeType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Applicable to OTHER barcodes if available, eg. customer barcode."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/OtherBarcodeInformation/OtherBarcodeText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/OtherBarcodeInformation/OtherBarcodeRotation",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/OtherBarcodeInformation/OtherBarcodeID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/NIKONBarcodeInformation/NIKONBarcodeType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/NIKONBarcodeInformation/NIKONBarcodeText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/NIKONBarcodeInformation/NIKONBarcodeRotation",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/NIKONBarcodeInformation/NIKONBarcodeID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/CANONBarcodeInformation/CANONBarcodeType",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/CANONBarcodeInformation/CANONBarcodeText",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/CANONBarcodeInformation/CANONBarcodeRotation",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/CANONBarcodeInformation/CANONBarcodeID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalBarcodeInformation/BarcodeID",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": "Barcode ID for ASML barcode."
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Transmission/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Transmission/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Transmission/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/TotalJudgement/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/TotalJudgement/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/TotalJudgement/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Repair/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Repair/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Repair/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Registration/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Registration/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Registration/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/PhaseShift/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/PhaseShift/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/PhaseShift/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Pellicle/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Pellicle/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Pellicle/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/FinalAudit/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/FinalAudit/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/FinalAudit/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Defect/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Defect/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/Defect/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/CriticalDimension/Tool",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/CriticalDimension/Operator",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    },
+    {
+        "AttributeNameinXML": ".//AdditionalInformation/AdditionalAuditorInformation/CriticalDimension/Judgement",
+        "Selected": 0,
+        "Description": "Text",
+        "Remarks": ""
+    }
+]
