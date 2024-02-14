@@ -275,7 +275,7 @@ def get_plm_doc():
     submit_button.config(state=tk.DISABLED)
     log_display("Downloading files from PLM... Please wait")
     sc = plmget.SoapClient(
-        wsdl_url="http://agileplm.gfoundries.com:7001/Agile/extension/GetXmlFilesFromChanageWS?wsdl",
+        wsdl_url="http://example.com/GetXmlFilesFromChanageWS?wsdl",
         username=user,
         password=passwd,
     )
